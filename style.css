@@ -1,0 +1,82 @@
+
+.navigace ul {
+    list-style-type:none ;
+    background-color: rgb(31, 204, 204);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+
+.navigace a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    
+}
+.navigace a:hover {
+    background-color: rgb(37, 76, 88);
+}
+.navigace li {
+    float: left;
+}
+h1 {
+    text-align: center;
+}
+
+.cont {
+    display: grid;
+    text-align: center;
+    gap: 100px;
+    grid-template-rows: repeat(8, 150px);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.karta1 {
+
+    background-color: rgb(235, 190, 106);
+    border: 2;
+}
+
+.kontakt {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 250px));
+    color: white;
+
+}
+.kon1 {
+    background-color: gray;
+}
+.kon2 {
+    background-color: rgb(80, 79, 79);
+}
+.kon3 {
+    background-color: rgb(58, 58, 58);
+}
+.kon4 {
+    background-color: rgb(53, 53, 53);
+}
+.kon5 {
+    background-color: rgb(68, 68, 68);
+}
+.kon6 {
+    background-color: rgb(112, 71, 71);
+}
+.kon7 {
+    background-color: rgb(241, 103, 103);
+}
+.kon8 {
+    background-color: rgb(255, 0, 0);
+}
+.ind {
+    background-color: rgb(184, 182, 182);
+}
+.contac {
+    background-color: rgb(200, 223, 243);
+}
+.sho {
+    background-color: antiquewhite;
+}
